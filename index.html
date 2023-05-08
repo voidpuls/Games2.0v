@@ -30,6 +30,9 @@
     <script src="hidey.js"></script>
   </head>
   <body>
+    <img src="img/Google_Homepage.png" id="googleHome" width="1950px"/> 
+    <button id="showGames" type="button" onclick="show()" style="visibility:hidden;">Sign in</button>
+    <div id="mainPage">
     <a class="fork-link" href="https://github.com/shadowgmes/shadowgmes.github.io/"><img src="img/forkme.svg" alt="Fork me on GitHub!" class="forkme-button"></a>
     <header>
       <a href="/" class="icon"><img src="icon.gif" class="icon" /></a>
@@ -37,13 +40,18 @@
       <a href="apps.html">Apps</a>
       <a href="https://discord.gg/ZdHBCFXdT3">Discord</a>
       <a onclick="hidey()">Hide Tab</a>
+      <button id="hideButton" type="button" onclick="hide()">Camouflage</button>
       <a href="https://www.buymeacoffee.com/sipsup3314" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px" ></a>
     </header>
+    
     <h1 class="title">Shadow's Games</h1>
     <div class="game-container">
       <div class="game-select" id="gameSelect">
       </div>
     </div>
+    </div>
+    <script type="text/javascript">function hide() {document.getElementById("googleHome").setAttribute("style","visibility:visible; position: fixed; overflow: hidden"); document.getElementById("showGames").setAttribute("style","visibility:visible"); document.getElementById("mainPage").setAttribute("style","visibility:hidden;")}</script>
+    <script type="text/javascript">function show() {document.getElementById("googleHome").setAttribute("style","visibility:hidden"); document.getElementById("showGames").setAttribute("style","visibility:hidden"); document.getElementById("mainPage").setAttribute("style","visibility:visible;")}</script>
     <script src="gameloader.js"></script>
     <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="sipsup3314" data-description="Support me on Buy me a coffee!" data-message="" data-color="#ffdd00" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
   </body>
