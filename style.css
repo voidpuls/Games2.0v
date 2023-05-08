@@ -114,3 +114,29 @@ p {
 .cursor-pointer {
   cursor: pointer;
 }
+
+#hideButton {
+  background: none;
+  border: none;
+  padding: 0;
+  /*optional*/
+  text-decoration: underline;
+  cursor: pointer;
+  width: auto;
+}
+
+#showGames {
+  background-color: rgb(77, 77, 221);
+  font-size: 41px;
+  border-radius: 10%;
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 1755px;
+}
+
+#googleHome {
+  visibility:hidden;
+  position:absolute; 
+  z-index:0;
+  object-fit: fill;
+}
