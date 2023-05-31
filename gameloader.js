@@ -176,6 +176,11 @@ var gamesText = `{
             "path":"gfiles/elastic-man/"
         },
         {
+            "name":"Fancy Pants Adventure",
+            "img":"img/fpa.jpg",
+            "path":"gfiles/fancypants/"
+        },
+        {
             "name":"Flag Racer",
             "img":"img/flagracer.png",
             "path":"gfiles/flagracer/"
