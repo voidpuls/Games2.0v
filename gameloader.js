@@ -321,6 +321,11 @@ var gamesText = `{
             "path":"gfiles/pico-8/"
         },
         {
+            "name":"PiClient",
+            "img":"img/eaglerx.png",
+            "path":"gfiles/piclient/"
+        },
+        {
             "name":"POOM",
             "img":"img/poom.jpg",
             "path":"gfiles/poom/"
