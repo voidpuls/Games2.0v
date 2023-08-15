@@ -17,7 +17,7 @@ var gamesText = `{
         },
         {
             "name":"Tab Hider",
-            "img":"img/tab-hidder.png",
+            "img":"img/tabhidder.png",
             "path":"afiles/tabhidder/"
         },
         {
