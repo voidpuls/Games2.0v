@@ -24,8 +24,8 @@ var gamesText = `{
           "name":"Thumby IDE",
           "img":"img/thumby.jpg",
           "path":"gfiles/thumby-ide/"
-        },
-    ],
+        }
+    ]
 }`;
 var gameObject = JSON.parse(gamesText);
 for (i in gameObject.games) {
