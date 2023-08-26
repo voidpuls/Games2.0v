@@ -276,6 +276,11 @@ var gamesText = `{
             "path":"gfiles/msflight/"
         },
         {
+            "name":"Minesweeper",
+            "img":"img/minesweep.png",
+            "path":"gfiles/minesweeper/"
+        },
+        {
             "name":"Moon Lander",
             "img":"img/moonlander.png",
             "path":"gfiles/moonlander/"
