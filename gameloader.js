@@ -336,6 +336,11 @@ var gamesText = `{
             "path":"gfiles/powder-game/dust2.html"
         },
         {
+            "name":"RetroArch",
+            "img":"img/webretro.png",
+            "path":"gfiles/retroarch/"
+        },
+        {
             "name":"Retro Bowl",
             "img":"img/retrobowl.jpg",
             "path":"gfiles/retro-bowl/"
@@ -504,11 +509,6 @@ var gamesText = `{
             "name":"Weave Silk",
             "img":"img/weavesilk.jpg",
             "path":"gfiles/weavesilk/"
-        },
-        {
-            "name":"Webretro",
-            "img":"img/webretro.png",
-            "path":"gfiles/webretro/"
         },
         {
             "name":"Wordle",
