@@ -18,7 +18,7 @@ var gamesText = `{
         {
             "name":"Tab Hider",
             "img":"img/tabhidder.png",
-            "path":"afiles/tabhidder/"
+            "path":"afiles/tab-hidder/"
         },
         {
           "name":"Thumby IDE",
