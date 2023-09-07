@@ -446,6 +446,11 @@ var gamesText = `{
             "path":"gfiles/tank-trouble-2/"
         },
         {
+            "name":"Tanuki Sunset",
+            "img":"img/tanuki.jpg",
+            "path":"gfiles/tanuki-sunset/"
+        },
+        {
             "name":"Temple Run 2",
             "img":"img/templerun2.jpeg",
             "path":"gfiles/temple-run-2/"
