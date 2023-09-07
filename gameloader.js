@@ -116,6 +116,11 @@ var gamesText = `{
             "path":"gfiles/circus/"
         },
         {
+            "name":"Clicker Heroes",
+            "img":"img/clickerheroes.png",
+            "path":"gfiles/clicker-heroes/"
+        },
+        {
             "name":"Cookie Clicker",
             "img":"img/cookieclicker.png",
             "path":"gfiles/cookieclicker/"
