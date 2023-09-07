@@ -44,7 +44,15 @@
       <div class="game-select" id="gameSelect">
       </div>
     </div>
-    <script src="apploader.js"></script>
+    <!-- <script src="apploader.js"></script> -->
+    <div class="saveContainer">
+    <p>Download Save:</p>
+    <button class="button" onclick="downloadMainSave()">Download Save</button>
+    <p>Upload Save:</p>
+    <input class="hiddenUpload" type="file" accept=".save" />
+    <div class="uploadResult"></div>
+    <script src="savman.js"></script>
+    </div>
     <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="sipsup3314" data-description="Support me on Buy me a coffee!" data-message="" data-color="#ffdd00" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
   </body>
 </html>

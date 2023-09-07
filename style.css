@@ -15,6 +15,7 @@
   width: 12vw;
   height: 12vw;
 }
+
 #desc {
   display: none;
 }
@@ -114,6 +115,24 @@ p {
   transition-duration: 0.3s;
   transform: translate(0px, -10px);
 }
+
 .cursor-pointer {
   cursor: pointer;
+}
+
+.hiddenUpload {
+  margin: auto;
+  text-align: center;
+
+}
+
+.uploadResult {
+  margin: auto;
+  text-align: center;
+}
+
+.saveContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
