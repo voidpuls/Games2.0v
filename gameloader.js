@@ -126,6 +126,11 @@ var gamesText = `{
             "path":"gfiles/cookieclicker/"
         },
         {
+            "name":"CSGO Clicker",
+            "img":"img/csgo.jpg",
+            "path":"gfiles/csgo-clicker/"
+        },
+        {
             "name":"Cubefield",
             "img":"img/cubefield.jpg",
             "path":"gfiles/cubefield/"
@@ -510,6 +515,11 @@ var gamesText = `{
             "img":"img/wallsmash.png",
             "path":"gfiles/wallsmash/"
         },
+        {
+            "name":"Waterworks!",
+            "img":"img/waterworks.png",
+            "path":"gfiles/waterworks/"
+        }
         {
             "name":"WBWWB",
             "img":"img/wbwwb.png",
