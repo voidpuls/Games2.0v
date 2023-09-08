@@ -519,7 +519,7 @@ var gamesText = `{
             "name":"Waterworks!",
             "img":"img/waterworks.png",
             "path":"gfiles/waterworks/"
-        }
+        },
         {
             "name":"WBWWB",
             "img":"img/wbwwb.png",
