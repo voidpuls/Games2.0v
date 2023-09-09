@@ -216,6 +216,11 @@ var gamesText = `{
             "path":"gfiles/fnf-week7/"
         },
         {
+            "name":"Funny Shooter 2",
+            "img":"img/funnyshooter2.jpg",
+            "path":"gfiles/funnyshooter2/"
+        },
+        {
             "name":"GBA Emulator",
             "img":"img/gba.jpg",
             "path":"gfiles/gba/"
