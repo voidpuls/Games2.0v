@@ -286,6 +286,11 @@ var gamesText = `{
             "path":"gfiles/mc-classic/"
         },
         {
+            "name":"Minecraft Tower Defense",
+            "img":"img/mctd.jpg",
+            "path":"gfiles/mctd/"
+        },
+        {
             "name":"Mineblocks",
             "img":"img/mineblocks.png",
             "path":"gfiles/mineblocks/"
@@ -574,3 +579,25 @@ for (i in gameObject.games) {
   elem2.appendChild(elem4);
   console.log("p made");
 }
+const gamesContainer = document.getElementById("gameSelect");
+const searchBar = document.getElementById("search");
+// Listen for input event on the search bar
+searchBar.addEventListener('input', (e) => {
+  const query = searchBar.value.trim().toLowerCase();
+
+  // Loop through all the games in the container and show/hide them depending on whether they match the search query
+  for (let game of gamesContainer.children) {
+    if (game instanceof Element) {
+      if (query) {
+        const gameName = game.querySelector('p').innerText.trim().toLowerCase();
+        if (gameName.includes(query)) {
+          game.removeAttribute('hidden');
+        } else {
+          game.setAttribute('hidden', '');
+        }
+      } else {
+        game.removeAttribute('hidden');
+      }
+    }
+  }
+});
