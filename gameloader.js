@@ -251,6 +251,11 @@ var gamesText = `{
             "path":"gfiles/hextris/"
         },
         {
+            "name":"HTML Editor",
+            "img":"img/htmledit.jpg",
+            "path":"gfiles/html-editor/"
+        },
+        {
             "name":"Impossible Quiz",
             "img":"img/impossiblequiz.jpg",
             "path":"gfiles/impossible-quiz/"
@@ -324,6 +329,11 @@ var gamesText = `{
             "name":"n-gon",
             "img":"img/n-gon.png",
             "path":"gfiles/n-gon/"
+        },
+        {
+            "name":"OliCryptor",
+            "img":"img/olicryptor.jpeg",
+            "path":"gfiles/olicryptor/"
         },
         {
             "name":"Pac-Man",
@@ -461,6 +471,11 @@ var gamesText = `{
             "path":"gfiles/ssf/"
         },
         {
+            "name":"Tab Hider",
+            "img":"img/tabhidder.png",
+            "path":"gfiles/tab-hidder/"
+        },
+        {
             "name":"Tank Trouble 2",
             "img":"img/tanktrouble2.jpg",
             "path":"gfiles/tank-trouble-2/"
@@ -524,6 +539,11 @@ var gamesText = `{
             "name":"Vex 6",
             "img":"img/vex6.jpg",
             "path":"gfiles/vex6/"
+        },
+        {
+          "name":"VM Linux",
+          "img":"img/vmlinux.png",
+          "path":"gfiles/vmlinux/"
         },
         {
             "name":"Wall Smash",
