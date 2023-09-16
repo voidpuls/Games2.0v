@@ -441,6 +441,21 @@ var gamesText = `{
             "path":"gfiles/sandspiel/"
         },
         {
+            "name":"Strike Force Heroes",
+            "img":"img/sfh.jpg",
+            "path":"gfiles/sfh/"
+        },
+        {
+            "name":"Strike Force Heroes 2",
+            "img":"img/sfh2.png",
+            "path":"gfiles/sfh2/"
+        },
+        {
+            "name":"Strike Force Heroes 3",
+            "img":"img/sfh3.png",
+            "path":"gfiles/sfh3/"
+        },
+        {
             "name":"Slope",
             "img":"img/slope.jpg",
             "path":"gfiles/slope/"
