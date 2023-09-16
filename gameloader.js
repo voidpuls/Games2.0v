@@ -296,6 +296,11 @@ var gamesText = `{
             "path":"gfiles/mctd/"
         },
         {
+            "name":"Minecraft Tower Defense 2",
+            "img":"img/mctd2.jpg",
+            "path":"gfiles/mctd2/"
+        },
+        {
             "name":"Mineblocks",
             "img":"img/mineblocks.png",
             "path":"gfiles/mineblocks/"
