@@ -30,6 +30,7 @@ To make a game request or review the site, please [make an issue on GitHub](http
 There are of course limitations to the games we can add.  
 - Only browser games. Please don't ask for Fortnite or Roblox.
 - No online multiplayer games. Due to the fact that the multiplayer servers for games can and will be blocked for most people, we cannot do online multiplayer.
+- No unlocking websites or streaming services. Once again, we are broke and can't afford servers. 
 - That's it I guess
 ## To-do list
 This has been moved to the backlog. [Click here](https://github.com/orgs/shadowgmes/projects/2) to view it.
