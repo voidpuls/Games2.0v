@@ -11870,14 +11870,14 @@ for (var k = 0; k < b0.split(" AND ").length; k++) {
                 }
             }
 
-            if (window.self !== window.top && !location.ancestorOrigins[0].includes("itch.io")) {
+            if (true) {
                 // Open a message that tells the user they aren't on the real website
                 var menuParent = document.createElement("div");
                 menuParent.className = "menuParent";
                 menuParent.style.display = "block";
                 menuParent.innerHTML = `<div class="menuScreen">
 <button class="XButton" onclick="closeMenu();">-</button>
-<span class="menuTitle">Sandboxels</span>
+<span class="menuTitle">WARNING</span>
 <div class="menuText" style="padding-top:1em">
     You may be on a website that has embedded our game involuntarily.
     <br><br>
