@@ -16,6 +16,43 @@
   height: 12vw;
 }
 
+#settings {
+  position: absolute;
+  /* right: 10vw; */
+  /* display: none; */
+  z-index: 999;
+  border: 0.3vw solid gray;
+  border-radius: 2vw;
+  max-width: 40vw;
+  margin: auto;
+  max-height: 30vw;
+  overflow-y: scroll;
+  display: none; /* def flex */
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 2vw;
+  -moz-border-radius: 2vw;
+  -ms-border-radius: 2vw;
+  -o-border-radius: 2vw;
+}
+
+#btn-setting button {
+  background-color: #222222;
+  border: 0.15vw solid white
+}
+
+#btn-setting {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+#settings #hr {
+  color: grey;
+}
+
 #desc {
   display: none;
 }
