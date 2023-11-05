@@ -125,6 +125,11 @@ var gamesText = `{
             "path":"gfiles/ballistic-chickens/"
         },
         {
+            "name":"Banjo-Kazooie",
+            "img":"img/banjo-kazooie.png",
+            "path":"gfiles/banjo-kazooie/"
+        },
+        {
             "name":"Basket and Ball",
             "img":"img/basket-and-ball.jpg",
             "path":"gfiles/basketandball/"
@@ -263,6 +268,11 @@ var gamesText = `{
             "name":"Elastic Man",
             "img":"img/elasticman.jpg",
             "path":"gfiles/elastic-man/"
+        },
+        {
+            "name":"EmulatorJS",
+            "img":"img/ejs.jpeg",
+            "path":"gfiles/ejs/"
         },
         {
             "name":"Fancy Pants Adventure",
@@ -453,11 +463,6 @@ var gamesText = `{
             "name":"Powder Game",
             "img":"img/powdergame.jpeg",
             "path":"gfiles/powder-game/dust2.html"
-        },
-        {
-            "name":"RetroArch",
-            "img":"img/webretro.png",
-            "path":"gfiles/retroarch/"
         },
         {
             "name":"Retro Bowl",

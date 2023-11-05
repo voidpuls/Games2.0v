@@ -27,7 +27,7 @@
   margin: auto;
   max-height: 30vw;
   overflow-y: scroll;
-  display: none; /* def flex */
+  display: flex; /* def flex */
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
