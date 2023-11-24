@@ -67,12 +67,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 a.icon {
   margin: 0.5%;
-  padding: 0;
+  padding-top: 5px;
   width: 5% !important;
 }
 
@@ -85,10 +87,25 @@ img.icon {
 header {
   display: flex;
   align-items: center;
-  padding: 0;
+  justify-content: space-around;
+  padding-right: 50px;
   margin: 0;
-  gap: 1.5%;
-  background-color: #151515;
+  background-color: #0c1320;
+}
+
+header a:hover{
+  color: rgb(73, 122, 245);
+  transform: scale(1.05);
+  transition: .2s;
+}
+
+.linkmenu{
+  text-decoration: none;
+}
+
+.icon{
+  border-radius: 40%;
+  
 }
 
 header a {
@@ -121,7 +138,9 @@ p {
 }
 
 .game-button {
-  background-color: #333333;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1b2c40, #0b111d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1b2c40, #0b111d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -175,5 +194,7 @@ p {
 }
 
 #search {
+  border-radius: 10px;
+  height: 20px;
   color: black;
 }
