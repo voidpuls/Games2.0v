@@ -5,10 +5,14 @@
   font-family: Arial, sans-serif;
 }
 
+b {
+font-weight:600;
+}
+
 .forkme-button {
   margin: 0;
-  width: 10vw;
-  height: 10vw;
+  width: 8vw;
+  height: 8vw;
   transition-duration: 0.3s;
 }
 
