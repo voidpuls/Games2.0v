@@ -1,3 +1,5 @@
+<h1>WARNING: This repo is not maintained. To see the actual repo, go to GitLab: https://gitlab.com/SipSup3314/shadow-games</h1>
+  
 # Shadow's Games
 
 This project has a license, so don't try copying it. You can fork it and give credit without claiming it's yours. Self-hosting and hosting providers are OK ***WITH CREDIT AND LICENSE***. Also, all games here are not mine, so you can have them.  
